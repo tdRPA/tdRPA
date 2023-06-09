@@ -34,6 +34,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - tdSDK： python SDK使用演示如下，其它语言类似
 
 
+```python
     #导入tdbot包
     import tdbot
     
@@ -51,6 +52,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
     #调用鼠标点击命令
     mouseApi.mouse_click_target(body=target)
     {'id': '8a8fe04c-0461-11ee-9cad-9cc6b1b7ea87'}
+```
 
 ## 6. 说明
 - tdRPA目前是v1.0beta版本，主要实现了selector元素表达式的生成和解析查找功能，UI元素的操作只实现了两个鼠标操作(点击、悬停)，后续会陆续把其它操作加上，欢迎提供应用需求，用需求驱动方式完善UI元素操作功能
