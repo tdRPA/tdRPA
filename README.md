@@ -29,7 +29,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - tdSDK： 目前只提供了python SDK，在命令行下进入`setup.py`所在目录，运行 `python setup.py install`
 
 ## 5. 使用
-- tdSelector： 运行`selector.exe`，元素拾取快捷键是`ctrl`
+- tdSelector： 运行`selector.exe`，元素拾取快捷键是`ctrl`取消`esc`
 - tdBot： 运行`tdbot.exe`，执行器restful API默认地址`127.0.0.1:8864`，可通过命令行方式启动修改，参数格式为 `tdbot.exe [ip] [port]`
 - tdSDK： python SDK使用演示如下，其它语言类似
 
