@@ -30,7 +30,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 
 ## 5. 使用
 - tdSelector： 运行`selector.exe`，元素拾取快捷键是`ctrl`取消`esc`
-- tdBot： 运行`tdbot.exe`，执行器restful API默认地址`127.0.0.1:8864`，可通过命令行方式启动修改，参数格式为 `tdbot.exe [ip] [port]`
+- tdBot： 运行`tdbot.exe`，执行器restful API默认地址`127.0.0.1:8864`，可通过命令行方式启动修改，参数格式为 `tdbot.exe [ip] [port]` 。查看restful API定义及调试，在这里[http://127.0.0.1:8864/swagger/index.html](http://127.0.0.1:8864/swagger/index.html)
 - tdSDK： python SDK使用演示如下，其它语言类似
 
 
