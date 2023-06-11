@@ -1,7 +1,7 @@
 # tdRPA
 
-[Chinese](./README.md)
-[English](./README_en.md)
+*Read this in other languages: [中文](./README.md) [English](./README_en.md)*
+
 
 ## 1. tdRPA是什么
 tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉的语言和开发工具，开发新的RPA应用，或把RPA功能集成到现有系统里
@@ -15,13 +15,14 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 |**大多数RPA应用**   |  **tdRPA** |
 | ------------ | ------------ |
 |低代码平台、面向业务人员|SDK、面向专业软件开发者|
+|集成开发环境、大而全|只聚焦UI自动化操作|
 |不能单独打包成可执行文件分发部署|可以|
 |不容易作为软件模块集成到现有应用系统里|方便|
 |专有可视化设计器结合嵌入代码功能|用自己熟悉的语言和开发工具|
 |代码功能、特定或有限的编程语言|大多数语言、基于[swagger-codegen](https://github.com/swagger-api/swagger-codegen "swagger-codegen")|
-|可视化操作、效率低、手忙脚乱眼昏花|代码方式、精准灵活|
+|可视化编程、效率低、手忙脚乱眼昏花|代码方式、精准灵活|
 |版本管理不方便|方便|
-|本机应用|机器人通过restful API方式调用，可远程控制，方便群控|
+|本地部署|机器人通过restful API方式调用，可远程控制，方便群控|
 
 ## 4.下载
 - github [https://github.com/tdRPA/tdRPA/releases](https://github.com/tdRPA/tdRPA/releases)
