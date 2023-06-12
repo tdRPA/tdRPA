@@ -64,6 +64,10 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 - tdRPA currently only implements the element operation function for Windows native applications. To operate browser applications, please search for `chrome force-renderer-accessibility`, which is a way to operate browser web UI elements as native elements. The next step is to better support browser operations, and automation for mobile applications has not been considered yet
 - The initial plan is to offer free use for personal applications and charge a small fee for commercial applications. Of course, if donations and appreciation can support the development work to continue, it will be completely free
 
-## 8. Contact
+## 8. Similar Products
+- Commercial,costly: UiPath,Blue Prism,Automation Anywhere,Pega,Microsoft Power Automation,UiBot,Cyclone
+- Open Source,most without visual UI element selector: TagUI,Robot Framework,OpenRPA,UI.Vision,UiAutomation,Playwright
+
+## 9. Contact
 - mail: thingswell@qq.com
 - WeChat: haijun-data

@@ -64,6 +64,10 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - tdRPA目前只实现了windows native应用的元素操作功能，操作浏览器应用请搜索`chrome force-renderer-accessibility`，是一种把浏览器网页UI元素当做native元素操作的方式。下一步计划是对浏览器操作更好的支持，对手机应用的自动化尚未考虑
 - 初步计划是对个人应用免费，商业应用少量收费的模式；当然如果捐助和赞赏方式能够支持开发工作继续下去，将全免费
 
-## 8. 联系
+## 8. 类似产品
+- 商业、价格高: UiPath、Blue Prism、Automation Anywhere、Pega、微软Power Automation、来也UiBot、影刀、金智维、艺赛旗、弘玑、Cyclone弘玑
+- 开源、大多没有可视化元素拾取: TagUI、Robot Framework、OpenRPA、UI.Vision、UiAutomation、Playwright
+
+## 9. 联系
 - mail: thingswell@qq.com
 - 微信: haijun-data
