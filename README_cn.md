@@ -75,4 +75,4 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 ## 10. 捐赠
 - [微信/支付宝](./zan.md)
 <br>
-- [ko-fi](https://ko-fi.com/K3K7MFO73) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K7MFO73)
+- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K7MFO73)
