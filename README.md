@@ -74,4 +74,4 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 
 ## 10. Support me
 - [wechat/alipay](./zan.md)<br><br>
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K7MFO73)
+- [![ko-fi](https://tdrpa.thingswell.cn/image/ko-fi.png)](https://ko-fi.com/K3K7MFO73)
