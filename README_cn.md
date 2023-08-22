@@ -56,12 +56,12 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
     import time
     time.sleep(1)
     
-    #点击帮助菜单栏
+    #点击'帮助'菜单栏
     helpSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'ctrl' : [ ('AutomationId' , 'MenuBar') , ('Text' , '应用程序') ] } ,  { 'ctrl' : [ ('Text' , '帮助(H)') , ('aaRole' , '12') ] }]"
     helpElement=tdcore.LocatorWindows.findElement(helpSelector)
     helpElement._element.Click()
 
-    #点击关于菜单项
+    #点击'关于'菜单项
     aboutSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , '帮助(H)') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , '关于记事本(A)') ] }]"
     aboutElement=tdcore.LocatorWindows.findElement()
     aboutElement._element.Click()
@@ -90,10 +90,12 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - 被其它语言调用
 - 远程调用、群控
 - 关于chrome force-renderer-accessibility
+- 相关类库、工具
 
 ## 11. 联系
 - mail: thingswell@qq.com
-- 微信: oceandeep007
+- 微信: haijun-data，加好友后可进tdRPA用户群
+- 也承接RPA项目开发，欢迎联系
 
 ## 12. 捐赠
 - [微信/支付宝](./zan.md)<br><br>
