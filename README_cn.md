@@ -63,7 +63,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 
     #点击'关于'菜单项
     aboutSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , '帮助(H)') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , '关于记事本(A)') ] }]"
-    aboutElement=tdcore.LocatorWindows.findElement()
+    aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.Click()
 ```
 

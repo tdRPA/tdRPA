@@ -40,30 +40,30 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 
 
 ```python
-    #导入tdcore包
+    #import tdcore module
     from tdrpa import tdcore
     
-    #获取'Desktop'根元素
+    #get 'Desktop' root element
     desktop=tdcore.LocatorWindows.findElement()
-    #输出元素Name属性
+    #print root 'Name' property
     print(desktop._element.Name)
     
-    #打开notepad.exe
+    #open 'notepad.exe'
     import os
     os.popen('notepad.exe')
     
-    #等待1秒
+    #wait 1 second
     import time
     time.sleep(1)
     
-    #点击'帮助'菜单栏
-    helpSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'ctrl' : [ ('AutomationId' , 'MenuBar') , ('Text' , '应用程序') ] } ,  { 'ctrl' : [ ('Text' , '帮助(H)') , ('aaRole' , '12') ] }]"
+    #click 'Help' menu
+    helpSelector="[  { 'wnd' : [ ('Text' , 'Untitled - Notepad') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'ctrl' : [ ('AutomationId' , 'MenuBar') , ('Text' , 'Application') ] } ,  { 'ctrl' : [ ('Text' , 'Help') , ('aaRole' , '12') ] }]"
     helpElement=tdcore.LocatorWindows.findElement(helpSelector)
     helpElement._element.Click()
 
-    #点击'关于'菜单项
-    aboutSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , '帮助(H)') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , '关于记事本(A)') ] }]"
-    aboutElement=tdcore.LocatorWindows.findElement()
+    #click 'About' item
+    aboutSelector="[  { 'wnd' : [ ('Text' , 'Untitled - Notepad') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , 'Help') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , 'About Notepad') ] }]"
+    aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.Click()
 ```
 
