@@ -36,7 +36,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 ## 6. 使用
 - tdSelector： 运行`selector.exe`，元素拾取快捷键是`ctrl`取消`esc`
 - tdBot： 随tdLocator自动启动，相关功能可通过任务栏托盘图标操作
-- tdLocator： python 使用演示如下，其它语言类似
+- tdLocator： python 使用演示如下 [录屏](https://tdrpa.thingswell.cn/video/usage_cn.mp4)
 
 
 ```python
@@ -94,8 +94,8 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 
 ## 11. 联系
 - mail: thingswell@qq.com
-- 微信: haijun-data，加好友后可进tdRPA用户群
-- 也承接RPA项目开发，欢迎联系
+- 微信: haijun-data，加好友后可进tdRPA群交流
+- 我们也承接RPA项目开发，欢迎联系
 
 ## 12. 捐赠
 - [微信/支付宝](./zan.md)<br><br>

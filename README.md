@@ -36,7 +36,7 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 ## 6. Usage
 - tdSelector: Run `selector.exe`, the shortcut key for element picking is `ctrl` and cancel is `esc`
 - tdBot: Automatically starts with tdLocator, and its related functions can be operated through the taskbar tray icon
-- tdLocator: Python usage demonstration is as follows, similar to other languages
+- tdLocator: Python usage demonstration is as follows [Video](https://tdrpa.thingswell.cn/video/usage_en.mp4)
 
 
 ```python
