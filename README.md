@@ -95,7 +95,6 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 ## 11. Contact
 - Email: thingswell@qq.com
 - WeChat: haijun-data
-- We also available for RPA projects development, please feel free to contact us
 
 ## 12. Support me
 - [wechat/alipay](./zan.md)<br><br>

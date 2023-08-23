@@ -95,7 +95,6 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 ## 11. 联系
 - mail: thingswell@qq.com
 - 微信: haijun-data，加好友后可进tdRPA群交流
-- 我们也承接RPA项目开发，欢迎联系
 
 ## 12. 捐赠
 - [微信/支付宝](./zan.md)<br><br>
