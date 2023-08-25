@@ -87,7 +87,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 
 ## 10. 技术问题
 - 使用演示
-- 被其它语言调用
+- [被其它语言调用](./topic/call_python_from_x__cn.md)
 - 远程调用、群控
 - 关于chrome force-renderer-accessibility
 - 相关类库、工具
