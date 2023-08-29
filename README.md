@@ -89,7 +89,7 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 - Usage demonstration
 - [Invoked by other languages](./topic/interop.md)
 - [Remote invocation, group control](./topic/rpc.md)
-- About chrome force-renderer-accessibility
+- [About chrome force-renderer-accessibility](./topic/chrome.md)
 - Related libraries, tools
 
 ## 11. Contact
