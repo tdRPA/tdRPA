@@ -2,6 +2,7 @@
 
 *Read this in other languages: [中文](./README_cn.md) [English](./README.md)*
 
+<span style="color:red;font-size:18px">Currently only works with Python 3.8([except for 3.8.1](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows))</span>
 
 ## 1. What is tdRPA
 tdRPA is an RPA SDK for software developers. Developers can use their familiar languages and development tools to develop new RPA applications or integrate RPA functionality into existing systems
