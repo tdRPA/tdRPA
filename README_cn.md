@@ -97,5 +97,5 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - 微信: haijun-data，加好友后可进tdRPA群交流
 
 ## 12. 捐赠
-- [微信/支付宝](./zan.md)<br><br>
+- [微信/支付宝](./topic/zan.md)<br><br>
 - [![ko-fi](https://tdrpa.thingswell.cn/image/ko-fi.png)](https://ko-fi.com/K3K7MFO73)

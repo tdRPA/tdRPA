@@ -97,5 +97,5 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 - WeChat: haijun-data
 
 ## 12. Support me
-- [wechat/alipay](./zan.md)<br><br>
+- [wechat/alipay](./topic/zan.md)<br><br>
 - [![ko-fi](https://tdrpa.thingswell.cn/image/ko-fi.png)](https://ko-fi.com/K3K7MFO73)
