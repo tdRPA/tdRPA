@@ -1,0 +1,6 @@
+1. https://doc.qt.io/qtforpython-5/quickstart.html
+Python 2.7 or 3.5+ (we recommend 3.5+),
+
+2. https://pypi.org/project/uiautomation/
+Python UIAutomation for Windows. Supports Python3.4+, x86, x64
+(Donot use 3.7.6,3.8.1)
