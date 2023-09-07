@@ -2,7 +2,7 @@
 
 *Read this in other languages: [中文](./README_cn.md) [English](./README.md)*
 
-<span style="color:red;font-size:18px">目前只支持Python 3.8([3.8.1除外](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows))</span>
+<span style="color:red;font-size:18px">支持Python 3.7+ Windows x64([3.7.6 3.8.1除外](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows))</span>
 
 ## 1. tdRPA是什么
 tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉的语言和开发工具，开发新的RPA应用，或把RPA功能集成到现有系统里
