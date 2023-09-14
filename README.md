@@ -67,7 +67,7 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
     aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.Click()
 
-    #For the properties and methods of "_element", please refer to the "uiautomation" open-source library or use a programming environment with code completion and intelligent suggestions
+    #For the properties and methods of "_element", please refer to the "uiautomation" https://pypi.org/project/uiautomation/ open-source library or use a programming environment with code completion and intelligent suggestions
 ```
 
 ## 7. Additional idea

@@ -67,7 +67,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
     aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.Click()
 
-    #"_element"的属性和方法，见"uiautomation"开源库，或使用带代码补全和智能提示的编程环境
+    #"_element"的属性和方法，见"uiautomation" https://pypi.org/project/uiautomation/ 开源库，或使用带代码补全和智能提示的编程环境
 ```
 
 ## 7. 说明
