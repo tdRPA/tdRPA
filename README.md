@@ -66,9 +66,9 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
     aboutSelector="[  { 'wnd' : [ ('Text' , 'Untitled - Notepad') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , 'Help') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , 'About Notepad') ] }]"
     aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.Click()
-```
 
-For the properties and methods of "_element", please refer to the "uiautomation" open-source library or use a programming environment with code completion and intelligent suggestions
+    #For the properties and methods of "_element", please refer to the "uiautomation" open-source library or use a programming environment with code completion and intelligent suggestions
+```
 
 ## 7. Additional idea
 - tdRPA is currently in version 1.1 and only supports element operations for Windows native applications. For operating browser applications, please search for "chrome force-renderer-accessibility," which is a way to treat browser web UI elements as native elements for operation. The next plan is to provide better support for browser operations, and automation for mobile applications has not been considered yet
