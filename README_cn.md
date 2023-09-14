@@ -68,6 +68,8 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
     aboutElement._element.Click()
 ```
 
+"_element"的属性和方法，见"uiautomation"开源库，或使用带代码补全和智能提示的编程环境
+
 ## 7. 说明
 - tdRPA目前是v1.1版本，只实现了windows native应用的元素操作功能，操作浏览器应用请搜索`chrome force-renderer-accessibility`，是一种把浏览器网页UI元素当做native元素操作的方式。下一步计划是对浏览器操作更好的支持，对手机应用的自动化尚未考虑
 - 不论个人应用还是商业应用，全部免费，无任何限制
