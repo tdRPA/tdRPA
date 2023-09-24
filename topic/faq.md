@@ -1,16 +1,16 @@
 ### FAQ
 
-##### 1. What do the aaRole and aaState properties of Windows Native UI elements mean in tdSelector?
+#### 1. What do the aaRole and aaState properties of Windows Native UI elements mean in tdSelector?
 These are two properties of the early Windows UI automation technology MSAA (Microsoft Active Accessibility): aaRole represents the element type, and aaState represents the element state. In actual usage, these two values are rarely modified. They are used as element search conditions by selecting or deselecting them. For more information, please refer to the MSAA documentation and the "uiautomation" open-source library.
 
-##### 2. How to double-click a Windows Native UI element?
+#### 2. How to double-click a Windows Native UI element?
 ```python
     aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
     aboutElement._element.DoubleClick()
 ```
 The properties and methods of "_element" can be found in the "uiautomation" open-source library or by using a programming environment with code completion and intelligent suggestions. 
 
-##### 3. How to get the link of Chrome browser address bar?
+#### 3. How to get the link of Chrome browser address bar?
 ```python
     addressElement=tdcore.LocatorWindows.findElement(addressSelector)
     valuePattern=addressElement._element.GetValuePattern()
