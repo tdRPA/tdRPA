@@ -1,3 +1,6 @@
+### 0. UI自动化核心依赖
+- Windows Native https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
+
 ### 1. 编译打包
 - Nuitka https://github.com/Nuitka/Nuitka
 
