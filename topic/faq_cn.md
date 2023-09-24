@@ -6,6 +6,16 @@
 ##### 2. 如何双击Windows Native UI元素？
 ```python
     aboutElement=tdcore.LocatorWindows.findElement(aboutSelector)
-    aboutElement._element.Click()
+    aboutElement._element.DoubleClick()
 ```
-"_element"的属性和方法，见uiautomation开源库，或使用带代码补全和智能提示的编程环境。另外，不同的UI元素类型具有不同的属性和方法，具体用法见UI Automation Control Patterns文档和uiautomation开源库
+"_element"的属性和方法，见uiautomation开源库，或使用带代码补全和智能提示的编程环境
+
+##### 3. 如何获取Chrome浏览器地址栏内容？
+```python
+    addressElement=tdcore.LocatorWindows.findElement(addressSelector)
+    valuePattern=addressElement._element.GetValuePattern()
+	address=valuePattern.Value
+	address
+	'https://github.com/tdRPA/tdRPA'
+```
+不同的UI元素类型具有不同的属性和方法，具体用法见UI Automation Control Patterns文档和uiautomation开源库
