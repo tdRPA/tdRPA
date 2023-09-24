@@ -1,4 +1,4 @@
-### 0. UI Automation Core Dependencies
+### 0. tdRPA UI Automation Core Dependencies
 - Windows Native https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
 
 ### 1. Compile and package
