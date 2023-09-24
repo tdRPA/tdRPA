@@ -14,8 +14,8 @@ The properties and methods of "_element" can be found in the "uiautomation" open
 ```python
     addressElement=tdcore.LocatorWindows.findElement(addressSelector)
     valuePattern=addressElement._element.GetValuePattern()
-	address=valuePattern.Value
-	address
-	'https://github.com/tdRPA/tdRPA'
+    address=valuePattern.Value
+    address
+    'https://github.com/tdRPA/tdRPA'
 ```
 Different UI element types have different properties and methods. For specific usage, please refer to the "UI Automation Control Patterns" documentation and the "uiautomation" open-source library.

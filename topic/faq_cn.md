@@ -14,8 +14,8 @@
 ```python
     addressElement=tdcore.LocatorWindows.findElement(addressSelector)
     valuePattern=addressElement._element.GetValuePattern()
-	address=valuePattern.Value
-	address
-	'https://github.com/tdRPA/tdRPA'
+    address=valuePattern.Value
+    address
+    'https://github.com/tdRPA/tdRPA'
 ```
 不同的UI元素类型具有不同的属性和方法，具体用法见UI Automation Control Patterns文档和uiautomation开源库
