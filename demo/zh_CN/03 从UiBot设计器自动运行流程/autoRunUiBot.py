@@ -1,7 +1,5 @@
 from tdrpa import tdcore
 
-import uiautomation
-
 import keyboard
 
 
@@ -21,16 +19,5 @@ if __name__ == '__main__':
     #双击UiBot任务栏图标，让它显示在最上层
     taskbarIcon.DoubleClick()
 
-    #获取UiBot主窗口元素
-    selectorUiBotWnd='''
-[
-  { 'wnd' : [ ('Text' , 'Creator') , ('aaRole' , '16') , ('App' , 'UiBot.exe') ] } ,
-]
-'''
-    wnd=tdcore.LocatorWindows.findElement(selectorUiBotWnd)._element
-
-    #显示并最大化窗口
-    wnd.ShowWindow(uiautomation.SW.ShowMaximized)
-    
     #F5 "运行"
     keyboard.send('F5')
