@@ -2,7 +2,7 @@
 
 #### tdcore.loggers: Dict[str, logging.Logger]
 当前已经存在的logger，每个logger都有不同的名字，对应不同的log文件；查看log文件，请右键单击任务栏右下角tdBot图标
-![查看日志](./png/view_log.png "查看日志")
+![查看日志](https://gitee.com/tdRPA/tdRPA/raw/master/tdcore/img/view_log.png)
 
 
 
