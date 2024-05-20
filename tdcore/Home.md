@@ -2,4 +2,4 @@
 
 ## [tdElement](./tdElement.md)
 
-## [tdCore基础能力](./tdcore.md)
+## [tdCore基础能力](./tdCore.md)
