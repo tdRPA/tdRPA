@@ -1,3 +1,6 @@
+# <span style="color:red">版本1.2发布！已经集成了playwright支持Web应用自动化，此处文档稍后更新~</span>
+--------------
+
 # tdRPA
 
 *Read this in other languages: [中文](./README_cn.md) [English](./README.md)*

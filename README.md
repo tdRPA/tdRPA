@@ -1,3 +1,6 @@
+# <span style="color:red">Version 1.2 is released! Web application automation by Playwright has been integrated, and the documentation here will be updated later~</span>
+--------------
+
 # tdRPA
 
 *Read this in other languages: [中文](./README_cn.md) [English](./README.md)*
