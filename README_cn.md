@@ -1,3 +1,5 @@
+重大更新! tdworker - 基于tdcore的命令库，强大方便，说明文档：https://www.showdoc.com.cn/tdworker
+
 ## <span style="color:red">版本1.2发布！已经集成了playwright支持Web应用自动化，此处文档稍后更新~</span>
 --------------
 
@@ -104,5 +106,4 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - 微信: haijun-data，加好友后可进tdRPA群交流
 
 ## 12. 捐赠
-- [微信/支付宝](./topic/zan.md)<br><br>
-- [![ko-fi](https://tdrpa.thingswell.cn/image/ko-fi.png)](https://ko-fi.com/K3K7MFO73)
+[微信/支付宝](./topic/zan.md)

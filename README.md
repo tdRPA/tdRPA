@@ -1,3 +1,5 @@
+Big update! tdworker - command library based on tdcore, powerful and convenient. See document here https://www.showdoc.com.cn/tdworker
+
 ## <span style="color:red">Version 1.2 is released! Web application automation by Playwright has been integrated, and the documentation here will be updated later~</span>
 --------------
 
@@ -104,5 +106,4 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 - WeChat: haijun-data
 
 ## 12. Support me
-- [wechat/alipay](./topic/zan.md)<br><br>
-- [![ko-fi](https://tdrpa.thingswell.cn/image/ko-fi.png)](https://ko-fi.com/K3K7MFO73)
+[wechat/alipay](./topic/zan.md)
