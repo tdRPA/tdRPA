@@ -11,10 +11,10 @@ if __name__ == '__main__':
   { 'ctrl' : [ ('AutomationId' , '40965') ] } ,
   { 'ctrl' : [ ('Text' , '运行中的应用程序') , ('aaRole' , '10') ] } ,
   { 'ctrl' : [ ('Text' , '运行中的应用程序') , ('aaRole' , '22') ] } ,
-  { 'ctrl' : [ ('Text' , 'Creator') , ('aaRole' , '43') ] }
+  { 'ctrl' : [ ('AutomationId' , 'UiBot-creator-5.6.0') ] }
 ]
 '''
-    taskbarIcon=tdcore.LocatorWindows.findElement(selectorTaskbarIcon)._element
+    taskbarIcon=tdcore.LocatorWindows.findElement(selectorTaskbarIcon)
 
     #双击UiBot任务栏图标，让它显示在最上层
     taskbarIcon.DoubleClick()
