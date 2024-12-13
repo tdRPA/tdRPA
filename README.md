@@ -1,4 +1,4 @@
-## Big update! tdworker - command library based on tdcore, powerful and convenient. See document here https://www.showdoc.com.cn/tdworker
+## Big update! tdworker - command library based on tdcore, powerful and convenient. See document here https://gitee.com/tdworker/command/wikis/pages
 
 ## <span style="color:red">Version 1.2 is released! Web application automation by Playwright has been integrated, and the documentation here will be updated later~</span>
 --------------
