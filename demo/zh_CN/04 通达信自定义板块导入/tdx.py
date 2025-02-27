@@ -56,10 +56,10 @@ def do(shift):
     if WinElement.Exists(selector):
         #登录按钮找不到控件，通过密码控件作为锚点，偏移鼠标解决
         WinMouse.Action(selector,cursorOffsetY=70,delayAfter=8000)
-
-    #双击任务栏图标显示主窗口
-    selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'explorer.exe') ] } ,  { 'ctrl' : [ ('Text' , '*通达信金融终端*' , 'fuzz') ] }]"
-    WinMouse.Action(selector,clickType='dblclick')
+    else:
+        #双击任务栏图标显示主窗口
+        selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'explorer.exe') ] } ,  { 'ctrl' : [ ('Text' , '*通达信金融终端*' , 'fuzz') ] }]"
+        WinMouse.Action(selector,clickType='dblclick')
 
     #关闭可能出现的广告弹窗，关闭按钮X选不到，就用窗口右上角偏移一点去点
     selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'tdxw.exe') ] } ,  { 'wnd' : [ ('Text' , '通达信信息') , ('aaRole' , '18') ] }]"
