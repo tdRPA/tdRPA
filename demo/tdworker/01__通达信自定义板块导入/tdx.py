@@ -4,6 +4,8 @@
 由于每天手动导入这些列表颇为繁琐，因此开发了此自动化流程以简化导入操作，大大提高了效率。
 关于具体工具的使用方法，请搜索tdRPA获取更多信息。
 '''
+import sys
+
 from datetime import datetime
 
 from tdrpa.tdworker import *
@@ -47,7 +49,7 @@ def clear_then_import(filePath):
     selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'tdxw.exe') ] } ,  { 'wnd' : [ ('Text' , '自定义板块设置') , ('aaRole' , '18') ] } ,  { 'wnd' : [ ('Text' , 'TdxW') , ('aaRole' , '18') ] } ,  { 'ctrl' : [ ('Text' , '确定') ] }]"
     WinMouse.Action(selector)
 
-def do():
+def do(shift):
     ###### 长时间不用会自动退出，检测登录窗口存在就登录下
     #登录窗口密码控件
     selector="[  { 'wnd' : [ ('aaRole' , '18') , ('App' , 'tdxw.exe') ] } ,  { 'ctrl' : [ ('ControlType' , 'Pane') , ('ClassName' , 'SafeEdit') ] }]"
@@ -77,7 +79,7 @@ def do():
     WinMouse.Action(selector,cursorPosition='topLeft')
     clear_then_import(r'C:\Dev\_sync_\sTide\bounce.txt')
 
-    weekDay=datetime.now().isoweekday()
+    weekDay=datetime.now().isoweekday()+shift
     #追高list，点up_X, X是星期几的数字
     btnText='up_%d' % weekDay
     selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'tdxw.exe') ] } ,  { 'ctrl' : [ ('Text' , '自定义板块管理') , ('aaRole' , '38') ] } ,  { 'ctrl' : [ ('Text' , '%s') , ('aaRole' , '34') ] }]" % btnText
@@ -97,4 +99,6 @@ def do():
 
 
 if __name__ == '__main__':
-    do()
+    #shift 日期调整值，当天晚上导入的数据供明天用，所以是1
+    shift=int(sys.argv[1])
+    do(shift)
