@@ -7,7 +7,7 @@ RPA(机器人流程自动化)开发工程师
 
 任职要求：
 - 精通Python编程
-- 熟悉HTML、JavaScript、CSS定位技术
+- 熟悉HTML、JavaScript、CSS selector
 - 具备独立解决问题的能力
 - 对新技能保持高度热情，能快速掌握新技术并将其应用于实践
 
