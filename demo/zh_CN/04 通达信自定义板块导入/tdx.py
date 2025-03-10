@@ -79,7 +79,7 @@ def do(shift):
     WinMouse.Action(selector,cursorPosition='topLeft')
     clear_then_import(r'C:\Dev\_sync_\sTide\bounce.txt')
 
-    weekDay=datetime.now().isoweekday() % 7 + shift
+    weekDay=(datetime.now().isoweekday() + shift) % 7
     #追高list，点up_X, X是星期几的数字
     btnText='up_%d' % weekDay
     selector="[  { 'wnd' : [ ('aaRole' , '10') , ('App' , 'tdxw.exe') ] } ,  { 'ctrl' : [ ('Text' , '自定义板块管理') , ('aaRole' , '38') ] } ,  { 'ctrl' : [ ('Text' , '%s') , ('aaRole' , '34') ] }]" % btnText
