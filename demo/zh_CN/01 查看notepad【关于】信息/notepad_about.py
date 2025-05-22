@@ -15,12 +15,12 @@ import time
 time.sleep(1)
 
 #点击'帮助'菜单栏
-helpSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'ctrl' : [ ('AutomationId' , 'MenuBar') , ('Text' , '应用程序') ] } ,  { 'ctrl' : [ ('Text' , '帮助(H)') , ('aaRole' , '12') ] }]"
+helpSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , 'Client') , ('App' , 'notepad.exe') ] } ,  { 'ctrl' : [ ('AutomationId' , 'MenuBar') , ('Text' , '应用程序') ] } ,  { 'ctrl' : [ ('Text' , '帮助(H)') , ('aaRole' , 'MenuItem') ] }]"
 helpElement=LocatorWindows.findElement(helpSelector)
 helpElement.Click()
 
 #点击'关于'菜单项
-aboutSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , '10') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , '帮助(H)') , ('aaRole' , '11') ] } ,  { 'ctrl' : [ ('AutomationId' , '65') , ('Text' , '关于记事本(A)') ] }]"
+aboutSelector="[  { 'wnd' : [ ('Text' , '无标题 - 记事本') , ('aaRole' , 'Client') , ('App' , 'notepad.exe') ] } ,  { 'wnd' : [ ('Text' , '帮助(H)') , ('aaRole' , 'MenuPopup') ] } ,  { 'ctrl' : [ ('Text' , '关于记事本(A)') , ('aaRole' , 'MenuItem') ] }]"
 aboutElement=LocatorWindows.findElement(aboutSelector)
 aboutElement.Click()
 
