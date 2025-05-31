@@ -1,3 +1,6 @@
+### 1.2.20
+- Windows元素aaState属性调整为位掩码编码(bitmask encoding)，支持模糊/正则匹配
+
 ### 1.2.19
 - Windows元素aaRole属性由id改成name
 
