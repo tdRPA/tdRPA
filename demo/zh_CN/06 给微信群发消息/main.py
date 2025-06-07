@@ -5,6 +5,8 @@
 请严格遵守相关法律法规，谨慎合法使用。
 """
 
+#测试环境：Windows10, 微信3.9.12.51
+
 from tdrpa.tdworker import WinElement
 from tdrpa.tdworker import WinKeyboard
 from tdrpa.tdworker import WinMouse
