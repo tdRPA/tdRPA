@@ -1,0 +1,1 @@
+nuitka --module --include-module=log --output-dir=dist .\main.py
