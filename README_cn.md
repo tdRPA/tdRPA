@@ -11,7 +11,7 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 ![tdRPA架构](./market/tdRPA架构.png)
 - tdSelector： 元素拾取器，可视化方式拾取UI元素，并生成元素查找表达式
 - tdLocator： 元素定位器，根据tdSelector生成的元素查找表达式，定位到对应的UI元素，随后就可以随意访问调用UI元素的属性和方法
-- tdWorker： 常见任务封装成简单的命令供直接调用，简化RPA流程的创建、提高开发效率、且流程更加稳定可靠易于维护
+- tdWorker： 常见任务封装成简单的命令供直接调用；简化RPA流程的创建，提高开发效率，且流程更加稳定可靠易于维护
 - tdPower： 封装常用AI能力，TBD
 - 第三方扩展能力： 促进技术创新，构建开发者和商业生态
 
@@ -39,9 +39,8 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 - [代码示例](./demo)
 - [视频课件](https://space.bilibili.com/27639838/lists/2460456)
 
-## 6. 成功案例
-- TBD
-- TBD
+## 6. 更新
+- [Release Notes](./release)
 
 ## 7. 说明
 - tdRPA目前是v1.2版本，已全面支持Windows应用和Web应用，其它应用(如Java、SAP)后续会根据需要增加支持
