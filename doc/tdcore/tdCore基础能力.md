@@ -1,4 +1,4 @@
-### 属性
+### 变量
 
 #### tdcore.loggers: Dict[str, logging.Logger]
 logger字典，每个logger都对应不同的log文件；查看log文件，请右键单击任务栏右下角tdBot图标

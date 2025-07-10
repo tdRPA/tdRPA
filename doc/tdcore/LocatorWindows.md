@@ -3,7 +3,7 @@ Windows元素定位
 
 
 
-### 属性
+### 变量
 
 #### timeout: int = None
 查找元素超时设置，单位秒；默认值None，表示永不超时
