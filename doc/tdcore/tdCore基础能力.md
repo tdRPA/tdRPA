@@ -1,19 +1,21 @@
 ### 属性
 
 #### tdcore.loggers: Dict[str, logging.Logger]
-当前已经存在的logger，每个logger都有不同的名字，对应不同的log文件；查看log文件，请右键单击任务栏右下角tdBot图标
-![查看日志](https://gitee.com/tdRPA/tdRPA/raw/master/tdcore/img/view_log.png)
+logger字典，每个logger都对应不同的log文件；查看log文件，请右键单击任务栏右下角tdBot图标
+![查看日志](https://gitee.com/tdRPA/tdRPA/raw/master/doc/tdcore/img/view_log.png)
 
 
 
 ### 方法
 
-#### tdcore.getLogger(name: str) -> logging.Logger
-给定一个名字，获取对应的logger对象；
+#### tdcore.getLogger(name:str, subFolder:str=None, backupCount:int=365) -> logging.Logger
+获取logger对象
 
 |  参数 | 说明  |
 |---|---|
-|  name | 如果相同名字的logger对象已经存在，会给出warning提示；建议避免和其它库用同一个logger  |
+|  name | logger名字  |
+|  subFolder | log文件存放的子文件夹，默认存放在根目录下,根目录位于: os.path.join(os.getenv('LOCALAPPDATA'),'tdRPA','log')  |
+|  backupCount | logger每天备份一个文件，backupCount指定要保留的备份文件个数  |
 
 
 #### tdcore.hotkeyPauseHere()
