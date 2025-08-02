@@ -1,3 +1,6 @@
+### 1.2.7
+- 修复元素选择红框bug
+
 ### 1.2.6
 - Windows元素aaState属性调整为位掩码编码(bitmask encoding)，支持模糊/正则匹配
 
