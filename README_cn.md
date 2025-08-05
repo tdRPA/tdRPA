@@ -31,6 +31,9 @@ tdRPA是面向软件开发人员的RPA SDK，开发人员可以用自己熟悉�
 ### tdSelector： 无需安装解压即可
 - github [https://github.com/tdRPA/tdRPA/releases](https://github.com/tdRPA/tdRPA/releases)
 - gitee [https://gitee.com/tdRPA/tdRPA/releases](https://gitee.com/tdRPA/tdRPA/releases)
+### tdLocator
+- 安装 `pip install tdrpa.tdcore`
+- [文档](./doc/tdcore)
 ### tdWorker
 - 安装 `pip install tdrpa.tdworker`
 - [文档](https://gitee.com/tdworker/command/wikis/pages)

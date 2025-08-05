@@ -31,6 +31,9 @@ tdRPA is an RPA SDK for software developers. Developers can use their familiar l
 ### tdSelector: No installation required, just unzip the file
 - github [https://github.com/tdRPA/tdRPA/releases](https://github.com/tdRPA/tdRPA/releases)
 - gitee [https://gitee.com/tdRPA/tdRPA/releases](https://gitee.com/tdRPA/tdRPA/releases)
+### tdLocator
+- installation `pip install tdrpa.tdcore`
+- [document](./doc/tdcore)
 ### tdWorker
 - installation `pip install tdrpa.tdworker`
 - [document](https://gitee.com/tdworker/command/wikis/pages)
